@@ -4,7 +4,7 @@ ENV JAVA_OPTS="-Xmx256m"
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY target/grade-calculator.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/student-grade-calculator.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
